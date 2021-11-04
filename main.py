@@ -7,7 +7,7 @@ auth_token = 'YOUR TWILIO AUTH_TOKEN HERE'
 client = Client(account_sid, auth_token)
 # Your accountsid and token goes here
 
-with open('motivational_texts.txt') as file:
+with open('texts.txt') as file:
     result = file.readlines()
 # Storing every line of motivatiobal_texts.txt in result
 
